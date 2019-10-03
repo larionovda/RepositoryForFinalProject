@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f50c5445-6a15-45dc-bdba-2814ee93bbbe" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1R1So75895Hx79y0L5AdO0OseE9" />
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Dima\IdeaProjects\hospital_example\src\main\resources\templates" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="hospital_example" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.larionov.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ru.larionov.Main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f50c5445-6a15-45dc-bdba-2814ee93bbbe" name="Default Changelist" comment="" />
+      <created>1568833281142</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1568833281142</updated>
+      <workItem from="1568833293752" duration="13144000" />
+      <workItem from="1568884868452" duration="8676000" />
+      <workItem from="1568903862119" duration="487000" />
+      <workItem from="1568909390802" duration="8109000" />
+      <workItem from="1568924955090" duration="69000" />
+      <workItem from="1568969835025" duration="12845000" />
+      <workItem from="1569003698215" duration="10820000" />
+      <workItem from="1569067204262" duration="10424000" />
+      <workItem from="1569146501953" duration="21076000" />
+      <workItem from="1569231822024" duration="9551000" />
+      <workItem from="1569243374380" duration="1144000" />
+      <workItem from="1569268716317" duration="123000" />
+      <workItem from="1569322213319" duration="23804000" />
+      <workItem from="1569405502810" duration="758000" />
+      <workItem from="1569411692780" duration="211000" />
+      <workItem from="1569434244551" duration="774000" />
+      <workItem from="1569435668259" duration="7522000" />
+      <workItem from="1569511390729" duration="1521000" />
+      <workItem from="1569513174539" duration="1749000" />
+      <workItem from="1569515001295" duration="1744000" />
+      <workItem from="1569516821721" duration="1747000" />
+      <workItem from="1569518787104" duration="1706000" />
+      <workItem from="1569523533806" duration="1830000" />
+      <workItem from="1569577764972" duration="1601000" />
+      <workItem from="1569580264793" duration="1256000" />
+      <workItem from="1569584313691" duration="1753000" />
+      <workItem from="1569586161632" duration="924000" />
+      <workItem from="1569607066038" duration="1276000" />
+      <workItem from="1569667748493" duration="1634000" />
+      <workItem from="1569669445996" duration="1950000" />
+      <workItem from="1569671470559" duration="1600000" />
+      <workItem from="1569673307009" duration="1738000" />
+      <workItem from="1569675102440" duration="1768000" />
+      <workItem from="1569677852487" duration="1207000" />
+      <workItem from="1569679662524" duration="1765000" />
+      <workItem from="1569681492957" duration="1183000" />
+      <workItem from="1569757490660" duration="1566000" />
+      <workItem from="1569759242806" duration="1636000" />
+      <workItem from="1569761014325" duration="1769000" />
+      <workItem from="1569762878262" duration="973000" />
+      <workItem from="1569765139589" duration="1702000" />
+      <workItem from="1569766905613" duration="1759000" />
+      <workItem from="1569768729164" duration="1693000" />
+      <workItem from="1569770719311" duration="1745000" />
+      <workItem from="1569772540257" duration="1764000" />
+      <workItem from="1569774359034" duration="1768000" />
+      <workItem from="1569776254462" duration="1764000" />
+      <workItem from="1569778086133" duration="1773000" />
+      <workItem from="1569780077690" duration="1431000" />
+      <workItem from="1569838237408" duration="44000" />
+      <workItem from="1569839408671" duration="1704000" />
+      <workItem from="1569841184893" duration="1501000" />
+      <workItem from="1569842939615" duration="386000" />
+      <workItem from="1569867378495" duration="1696000" />
+      <workItem from="1569869144085" duration="1766000" />
+      <workItem from="1569870967564" duration="1770000" />
+      <workItem from="1569872795910" duration="1345000" />
+      <workItem from="1569874673796" duration="1231000" />
+      <workItem from="1569995107330" duration="1697000" />
+      <workItem from="1569996878473" duration="1842000" />
+      <workItem from="1569999208663" duration="1767000" />
+      <workItem from="1570001028019" duration="1763000" />
+      <workItem from="1570002852270" duration="1770000" />
+      <workItem from="1570101577015" duration="1262000" />
+      <workItem from="1570103275678" duration="1282000" />
+      <workItem from="1570105453415" duration="1150000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>
