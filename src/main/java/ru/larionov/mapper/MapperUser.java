@@ -1,3 +1,4 @@
+
 package ru.larionov.mapper;
 
 import org.springframework.jdbc.core.RowMapper;
@@ -11,7 +12,7 @@ public class MapperUser implements RowMapper<User> {
     @Override
     public User mapRow(ResultSet resultSet, int i) throws SQLException {
         User user = new User();
-        user.setId(resultSet.getInt("id"));
+        user.setId(resultSet.getInt("user_id"));
         user.setUsername(resultSet.getString("user_name"));
         user.setPassword(resultSet.getString("pass"));
         user.setActive(resultSet.getBoolean("active"));

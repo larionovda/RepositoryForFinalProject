@@ -3,23 +3,20 @@ package ru.larionov.controller;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.ModelAttribute;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.*;
 import ru.larionov.dao.JdbcTemplatePatientCardDAO;
 import ru.larionov.entity.PatientCard;
-
-import java.util.Map;
 
 @Controller
 public class PatientCardController {
     @Autowired
     private JdbcTemplatePatientCardDAO jdbcTemplatePatientCardDAO;
 
-    @GetMapping("/")
-    public String greeting(Map<String, Object> model) {
-        return "greeting";
+    @RequestMapping(value = {"/"}, method = RequestMethod.GET)
+    public String welcomePage(Model model) {
+        model.addAttribute("title", "Welcome");
+        model.addAttribute("message", "This is welcome page!");
+        return "welcomePage";
     }
 
     @GetMapping("/card/{id}")
@@ -28,13 +25,16 @@ public class PatientCardController {
         return "patientCard";
     }
 
-    @GetMapping("/addPatientCard")
-    public String createPatientCardPage(){
+    @GetMapping("/addPatientCard{patientId}")
+    public String addPatientCard(@PathVariable("patientId") int patientId, Model model) {
+        PatientCard patientCard = new PatientCard(patientId);
+        model.addAttribute("patientCard", patientCard);
         return "createPatientCard";
     }
 
-    @PostMapping("/addPatientCard")
-    public String addPatientCard(PatientCard patientCard){
+    @RequestMapping(value = { "/addPatientCard" }, method = RequestMethod.POST)
+    public String addCard(Model model,
+                             @ModelAttribute("patientCard") PatientCard patientCard) {
         jdbcTemplatePatientCardDAO.addPatientCard(patientCard);
         return "redirect:/patients";
     }
@@ -47,6 +47,18 @@ public class PatientCardController {
 
     @PostMapping("/updatePatientCard")
     public String updatePatientCard(@ModelAttribute("patientCard") PatientCard patientCard){
+        jdbcTemplatePatientCardDAO.updatePatientCard(patientCard);
+        return "redirect:/card/" + patientCard.getPatientId();
+    }
+
+    @GetMapping("/updateNurse{id}")
+    public String updateNurse(@PathVariable("id") int id, Model model){
+        model.addAttribute("patientCard", jdbcTemplatePatientCardDAO.getPatientCardByPatientId(id));
+        return "editPatientCardNurse";
+    }
+
+    @PostMapping("/updatePatientCardNurse")
+    public String updatePatientCardNurse(@ModelAttribute("patientCard") PatientCard patientCard){
         jdbcTemplatePatientCardDAO.updatePatientCard(patientCard);
         return "redirect:/card/" + patientCard.getPatientId();
     }

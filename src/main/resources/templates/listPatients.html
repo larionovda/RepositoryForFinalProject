@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>List of patients</title>
+</head>
+
+<body>
+
+<form th:action="@{/logout}" method="post">
+    <input type="submit" value="Sign Out"/>
+</form>
+
+
+    <div th:each="patient : ${patients}">
+        <div th:with="fullName = ${patient.getName()} + ' ' + ${patient.getSurname()} + ' ' + ${patient.getPatronymic()}">
+            <a th:href="@{'/card/' + ${patient.getId()}}"  th:utext="${fullName}"></a>
+        </div>
+    </div>
+    <hr>
+    <a href="/addPatient">ADD PATIENT WITH CARD</a>
+
+</body>
+</html>

@@ -1,0 +1,19 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>List of patients</title>
+</head>
+
+<body>
+
+<form th:action="@{/addPatientCard}" th:object="${patientCard}" method="post">
+    <div><label> Diagnosis : <input type="text" th:field="*{diagnosis}"/> </label></div>
+    <div><label> Medicine: <input type="text" th:field="*{medicine}"/> </label></div>
+    <div><label> Procedures: <input type="text" th:field="*{procedures}"/> </label></div>
+    <div><label> Operation: <input type="text" th:field="*{operation}"/> </label></div>
+    <div><label> <input type="hidden" th:field="*{patientId}"/> </label></div>
+    <div><input type="submit" value="Add"/></div>
+</form>
+
+</body>
+</html>

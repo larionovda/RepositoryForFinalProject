@@ -2,11 +2,12 @@ package ru.larionov.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.*;
 import ru.larionov.dao.JdbcTemplateUserDAO;
-import ru.larionov.entity.User;
 import ru.larionov.entity.Role;
+import ru.larionov.entity.User;
+
 import java.util.Map;
 
 @Controller
@@ -14,13 +15,14 @@ public class RegistrationController {
     @Autowired
     private JdbcTemplateUserDAO jdbcTemplateUserDAO;
 
-    @GetMapping("/registration")
-    public String registration(){
+    @RequestMapping(value = { "/registration" }, method = RequestMethod.GET)
+    public String showAddPatient(Model model) {
+        model.addAttribute("user", new User());
         return "registration";
     }
 
-    @PostMapping("/registration")
-    public String addUser(User user, Map<String, Object> model){
+    @RequestMapping(value = { "/registration" }, method = RequestMethod.POST)
+    public String savePerson(@ModelAttribute("user") User user) {
         user.setActive(true);
         user.getRoles().add(Role.DOCTOR);
         jdbcTemplateUserDAO.addUser(user.getUsername(), user.getPassword(), user.isActive(), takeRoleByInt(user.getRoles().iterator().next()));

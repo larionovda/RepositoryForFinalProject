@@ -1,3 +1,4 @@
+
 package ru.larionov.entity;
 
 import org.springframework.security.core.GrantedAuthority;

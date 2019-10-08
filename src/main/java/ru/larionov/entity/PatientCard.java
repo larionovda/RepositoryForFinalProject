@@ -3,8 +3,10 @@ package ru.larionov.entity;
 import javax.persistence.*;
 
 @Entity
+@Table(name = "patientCard")
 public class PatientCard {
     @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private int id;
     private String diagnosis;
     private String medicine;
@@ -13,6 +15,10 @@ public class PatientCard {
     private int patientId;
 
     public PatientCard() {
+    }
+
+    public PatientCard(int patientId) {
+        this.patientId = patientId;
     }
 
     public PatientCard(int id, String diagnosis, String medicine, String procedures, String operation, int patientId) {

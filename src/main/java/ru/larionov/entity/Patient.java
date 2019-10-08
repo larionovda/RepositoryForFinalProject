@@ -2,8 +2,10 @@ package ru.larionov.entity;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
+import javax.persistence.Table;
 
 @Entity
+@Table(name = "patient")
 public class Patient {
     @Id
     private int id;
@@ -12,13 +14,6 @@ public class Patient {
     private String patronymic;
 
     public Patient() {
-    }
-
-    public Patient(int id, String name, String surname, String patronymic) {
-        this.id = id;
-        this.name = name;
-        this.surname = surname;
-        this.patronymic = patronymic;
     }
 
     public int getId() {

@@ -1,8 +1,8 @@
+
 package ru.larionov.dao;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;
-import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Repository;
 import ru.larionov.entity.User;
 import ru.larionov.mapper.MapperUser;
@@ -23,7 +23,7 @@ public class UserImpl implements JdbcTemplateUserDAO {
 
     @Override
     public User findUserByUserName(String username) {
-        String SQL = " select user.id, user_name, pass, active, roles_id from user where user_name = ?";
+        String SQL = " select user_id, user_name, pass, active, roles_id from user where user_name = ?";
         return jdbcTemplate.queryForObject(SQL, MAPPER_USER, username);
     }
 

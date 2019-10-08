@@ -1,7 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f50c5445-6a15-45dc-bdba-2814ee93bbbe" name="Default Changelist" comment="" />
+    <list default="true" id="f50c5445-6a15-45dc-bdba-2814ee93bbbe" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/larionov/dao/JdbcTemplateRoleDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/larionov/dao/RoleImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/createPatientCard.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/css/registration.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/editPatientCardNurse.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/listPatients.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/menu.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/patientCard.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/registration.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/welcomePage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/larionov/config/MvcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/larionov/config/MvcConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/larionov/config/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/larionov/config/WebSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/larionov/controller/PatientCardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/larionov/controller/PatientCardController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/larionov/controller/PatientController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/larionov/controller/PatientController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/larionov/controller/RegistrationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/larionov/controller/RegistrationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/larionov/dao/JdbcTemplatePatientCardDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/larionov/dao/JdbcTemplatePatientCardDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/larionov/dao/JdbcTemplatePatientDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/larionov/dao/JdbcTemplatePatientDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/larionov/dao/JdbcTemplateUserDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/larionov/dao/JdbcTemplateUserDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/larionov/dao/UserImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/larionov/dao/UserImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/larionov/entity/Patient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/larionov/entity/Patient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/larionov/entity/PatientCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/larionov/entity/PatientCard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/larionov/entity/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/larionov/entity/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/larionov/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/larionov/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/larionov/mapper/MapperUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/larionov/mapper/MapperUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/larionov/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/larionov/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/createPatient.ftl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/createPatientCard.ftl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/editPatientCard.ftl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/greeting.ftl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/login.ftl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/parts/common.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/createPatient.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/parts/login.ftl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/patientCard.ftl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/patientList.ftl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/registration.ftl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/larionov/config/WebSecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/larionov/config/WebSecurityConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/larionov/controller/PatientCardController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/larionov/controller/PatientCardController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/larionov/controller/PatientController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/larionov/controller/PatientController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/larionov/controller/RegistrationController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/larionov/controller/RegistrationController$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/larionov/controller/RegistrationController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/larionov/controller/RegistrationController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/larionov/dao/JdbcTemplatePatientCardDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/larionov/dao/JdbcTemplatePatientCardDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/larionov/dao/JdbcTemplatePatientDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/larionov/dao/JdbcTemplatePatientDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/larionov/dao/JdbcTemplateUserDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/larionov/dao/JdbcTemplateUserDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/larionov/dao/PatientCardImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/larionov/dao/PatientCardImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/larionov/dao/PatientImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/larionov/dao/PatientImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/larionov/dao/UserImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/larionov/dao/UserImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/larionov/entity/Patient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/larionov/entity/Patient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/larionov/entity/PatientCard.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/larionov/entity/PatientCard.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/larionov/entity/Role.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/larionov/entity/Role.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/larionov/mapper/MapperUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/larionov/mapper/MapperUser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/larionov/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/larionov/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/createPatient.ftl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/createPatientCard.ftl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/editPatientCard.ftl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/greeting.ftl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/login.ftl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/parts/common.ftl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/parts/login.ftl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/patientCard.ftl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/patientList.ftl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/registration.ftl" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,12 +79,16 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
+        <option value="Enum" />
+        <option value="CSS File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -26,6 +98,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1R1So75895Hx79y0L5AdO0OseE9" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RequestMappingsPanelOrder0" value="0" />
@@ -34,10 +107,12 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Dima\Desktop\hospital_example\src\main\resources\templates\img" />
       <recent name="C:\Users\Dima\IdeaProjects\hospital_example\src\main\resources\templates" />
     </key>
   </component>
@@ -149,10 +224,78 @@
       <workItem from="1570101577015" duration="1262000" />
       <workItem from="1570103275678" duration="1282000" />
       <workItem from="1570105453415" duration="1150000" />
+      <workItem from="1570107015701" duration="1405000" />
+      <workItem from="1570111404996" duration="1712000" />
+      <workItem from="1570113170818" duration="1313000" />
+      <workItem from="1570116172855" duration="1711000" />
+      <workItem from="1570117966356" duration="1767000" />
+      <workItem from="1570119796522" duration="1641000" />
+      <workItem from="1570121638623" duration="1068000" />
+      <workItem from="1570219534550" duration="1579000" />
+      <workItem from="1570221342037" duration="1987000" />
+      <workItem from="1570223768261" duration="1771000" />
+      <workItem from="1570225606228" duration="1764000" />
+      <workItem from="1570227422720" duration="1773000" />
+      <workItem from="1570229253585" duration="1765000" />
+      <workItem from="1570231077184" duration="1780000" />
+      <workItem from="1570265047217" duration="1682000" />
+      <workItem from="1570266809324" duration="1753000" />
+      <workItem from="1570268647831" duration="1745000" />
+      <workItem from="1570270456276" duration="2269000" />
+      <workItem from="1570274625171" duration="1765000" />
+      <workItem from="1570276908655" duration="1789000" />
+      <workItem from="1570278770420" duration="1574000" />
+      <workItem from="1570281107906" duration="1976000" />
+      <workItem from="1570285036987" duration="1604000" />
+      <workItem from="1570286854337" duration="1458000" />
+      <workItem from="1570290003879" duration="1154000" />
+      <workItem from="1570294027265" duration="1779000" />
+      <workItem from="1570295927009" duration="750000" />
+      <workItem from="1570302393227" duration="1749000" />
+      <workItem from="1570304245501" duration="1773000" />
+      <workItem from="1570306085894" duration="1930000" />
+      <workItem from="1570308809493" duration="1859000" />
+      <workItem from="1570362159904" duration="1324000" />
+      <workItem from="1570364340404" duration="1764000" />
+      <workItem from="1570366175625" duration="1695000" />
+      <workItem from="1570368005077" duration="1854000" />
+      <workItem from="1570369954935" duration="1754000" />
+      <workItem from="1570371932600" duration="1704000" />
+      <workItem from="1570373700817" duration="1761000" />
+      <workItem from="1570375544193" duration="1754000" />
+      <workItem from="1570378653815" duration="1758000" />
+      <workItem from="1570380495213" duration="1835000" />
+      <workItem from="1570382664430" duration="1769000" />
+      <workItem from="1570384628791" duration="1219000" />
+      <workItem from="1570387115782" duration="1644000" />
+      <workItem from="1570388840217" duration="1773000" />
+      <workItem from="1570390674352" duration="1814000" />
+      <workItem from="1570392578067" duration="1762000" />
+      <workItem from="1570394410399" duration="1751000" />
+      <workItem from="1570396226128" duration="1801000" />
+      <workItem from="1570398089970" duration="490000" />
+      <workItem from="1570446883781" duration="1216000" />
+      <workItem from="1570449140800" duration="1707000" />
+      <workItem from="1570451058987" duration="1682000" />
+      <workItem from="1570452832166" duration="1537000" />
+      <workItem from="1570538211551" duration="1456000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
