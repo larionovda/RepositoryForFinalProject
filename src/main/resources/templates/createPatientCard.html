@@ -1,19 +1,42 @@
 <!DOCTYPE HTML>
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
-    <title>List of patients</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Create a card</title>
+    <link rel="stylesheet" href="css/createPatient.css">
 </head>
 
 <body>
 
-<form th:action="@{/addPatientCard}" th:object="${patientCard}" method="post">
-    <div><label> Diagnosis : <input type="text" th:field="*{diagnosis}"/> </label></div>
-    <div><label> Medicine: <input type="text" th:field="*{medicine}"/> </label></div>
-    <div><label> Procedures: <input type="text" th:field="*{procedures}"/> </label></div>
-    <div><label> Operation: <input type="text" th:field="*{operation}"/> </label></div>
-    <div><label> <input type="hidden" th:field="*{patientId}"/> </label></div>
-    <div><input type="submit" value="Add"/></div>
-</form>
 
+<header class="header">
+    <div class="loglink">
+        <a class="link" href="/patients">Hospital</a>
+    </div>
+    <div class="logout">
+        <a class="linklogout" href="/logout">Log out</a>
+    </div>
+</header>
+
+<section>
+    <div>
+        <img src="/img/logo.png" alt="logo">
+    </div>
+
+    <div class="dws-wrapper">
+        <div class="dws-form">
+            <form class="tab-form active" th:action="@{/addPatientCard}" th:object="${patientCard}" method="post">
+                <label><input class="input" type="text" th:field="*{diagnosis}" placeholder="diagnosis"/> </label>
+                <label><input class="input" type="text" th:field="*{medicine}" placeholder="medicine"/></label>
+                <label><input class="input" type="text" th:field="*{procedures}" placeholder="procedure"/> </label>
+                <label><input class="input" type="text" th:field="*{operation}" placeholder="operation"/> </label>
+                <label><input type="hidden" th:field="*{patientId}"/> </label>
+                <input class="button" type="submit" value="Add"/>
+            </form>
+        </div>
+    </div>
+</section>
 </body>
 </html>

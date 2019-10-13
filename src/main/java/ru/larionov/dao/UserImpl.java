@@ -1,4 +1,3 @@
-
 package ru.larionov.dao;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -6,7 +5,6 @@ import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Repository;
 import ru.larionov.entity.User;
 import ru.larionov.mapper.MapperUser;
-
 import java.util.List;
 
 @Repository

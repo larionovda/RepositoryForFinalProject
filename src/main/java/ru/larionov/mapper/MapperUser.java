@@ -1,10 +1,8 @@
-
 package ru.larionov.mapper;
 
 import org.springframework.jdbc.core.RowMapper;
 import ru.larionov.entity.User;
 import ru.larionov.entity.Role;
-
 import java.sql.ResultSet;
 import java.sql.SQLException;
 

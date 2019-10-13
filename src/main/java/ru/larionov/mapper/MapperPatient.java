@@ -2,7 +2,6 @@ package ru.larionov.mapper;
 
 import org.springframework.jdbc.core.RowMapper;
 import ru.larionov.entity.Patient;
-
 import java.sql.ResultSet;
 import java.sql.SQLException;
 

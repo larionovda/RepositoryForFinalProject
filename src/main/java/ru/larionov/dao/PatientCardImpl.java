@@ -8,7 +8,7 @@ import ru.larionov.entity.PatientCard;
 import ru.larionov.mapper.MapperPatientCard;
 
 @Repository
-public class PatientCardImpl implements JdbcTemplatePatientCardDAO{
+public class PatientCardImpl implements JdbcTemplatePatientCardDAO {
     @Autowired
     private JdbcTemplate jdbcTemplate;
     @Autowired

@@ -1,23 +1,40 @@
 <!DOCTYPE HTML>
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
-    <title>List of patients</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>All patients</title>
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/patients.css">
 </head>
-
 <body>
-
-<form th:action="@{/logout}" method="post">
-    <input type="submit" value="Sign Out"/>
-</form>
-
-
-    <div th:each="patient : ${patients}">
-        <div th:with="fullName = ${patient.getName()} + ' ' + ${patient.getSurname()} + ' ' + ${patient.getPatronymic()}">
-            <a th:href="@{'/card/' + ${patient.getId()}}"  th:utext="${fullName}"></a>
+<header class="header">
+    <div class="loglink">
+        <a class="link" href="/patients">Hospital</a>
+    </div>
+    <div class="logout">
+        <a class="linklogout" href="/logout">Log out</a>
+    </div>
+</header>
+<section class="main">
+    <div class="container">
+        <div class="logo">
+            <img src="/img/logo.png" alt="logo" class="logo_img">
+        </div>
+        <h2 class="title">Select your a patient</h2>
+        <div class="patients">
+            <a class="linkPatient" th:href="@{'/card' + ${patient.getId()}}" th:each="patient : ${patients}"
+               th:with="fullName = ${patient.getName()} + ' ' + ${patient.getSurname()} + ' ' + ${patient.getPatronymic()}">
+                <div class="patient" th:utext="${fullName}"></div>
+            </a>
         </div>
     </div>
-    <hr>
-    <a href="/addPatient">ADD PATIENT WITH CARD</a>
-
+    <div class="patients">
+        <a href="/addPatient">
+            <div class="add">ADD A PATIENT WITH CARD</div>
+        </a>
+    </div>
+</section>
 </body>
 </html>

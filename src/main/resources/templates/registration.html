@@ -1,16 +1,39 @@
 <!DOCTYPE HTML>
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
-    <title>List of patients</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Registration</title>
+    <link rel="stylesheet" href="/css/login.css">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <script src="http://code.jquery.com/jquery-3.2.1.js"></script>
+    <script src="js/script.js"></script>
 </head>
-
 <body>
-
-<<form th:action="@{/registration}" th:object="${user}" method="post">
-    <div><label> User name: <input type="text" th:field="*{username}"/> </label></div>
-    <div><label> password: <input type="text" th:field="*{password}"/> </label></div>
-    <div><input type="submit" value="Add"/></div>
-</form>
-
+<section>
+    <div>
+        <img src="/img/logo.png" alt="logo">
+    </div>
+    <div class="dws-wrapper">
+        <div class="dws-form">
+            <a href="/login"><label class="tab" title="sheet 1">authorization</label></a>
+            <a href="/registration"><label class="tab active" title="sheet 2">registration</label></a>
+            <form class="tab-form active" th:action="@{/registration}" th:object="${user}" method="post">
+                <label><input class="input" type="text" th:field="*{username}" placeholder="Enter login"/> </label>
+                <label><input class="input" type="text" th:field="*{password}" placeholder="Enter password"/> </label>
+                <input class="button" type="submit" value="Add"/>
+                <ul class="social">
+                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="fa fa-vk"></i></a></li>
+                    <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+                </ul>
+                <a class="forgot" href="#">I forgot my username or password</a>
+            </form>
+        </div>
+    </div>
+</section>
 </body>
 </html>

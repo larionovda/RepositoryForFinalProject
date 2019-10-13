@@ -1,23 +1,50 @@
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
-    <title>Spring Security Example </title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Authorization</title>
+    <link rel="stylesheet" href="/css/login.css">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <script src="http://code.jquery.com/jquery-3.2.1.js"></script>
+    <script src="js/script.js"></script>
 </head>
 <body>
-<div th:if="${param.error}">
-    Invalid username and password.
-</div>
-<div th:if="${param.logout}">
-    You have been logged out.
-</div>
-<form th:action="@{/login}" method="post">
-    <div><label> User Name : <input type="text" name="username"/> </label></div>
-    <div><label> Password: <input type="password" name="password"/> </label></div>
-    <div><input type="submit" value="Sign In"/></div>
-</form>
-<hr>
+<section>
+    <div>
+        <img src="/img/logo.png" alt="logo">
+    </div>
 
-<a href="/registration">Add new user</a>
+    <div class="message" th:if="${param.error}">
+        Invalid username and(or) password.
+    </div>
+    <div class="message" th:if="${param.logout}">
+        You have been logged out.
+    </div>
 
+    <div class="dws-wrapper">
+        <div class="dws-form">
+            <label class="tab active" title="sheet 1">authorization</label>
+            <a href="/registration"><label class="tab" title="sheet 2">registration</label></a>
+            <form class="tab-form active" th:action="@{/login}" method="post">
+                <label><input class="input" type="text" name="username" placeholder="Enter login"/> </label>
+                <label><input class="input" type="password" name="password" placeholder="Enter password"/> </label>
+                <input class="button" type="submit" value="Sign In"/>
+                <ul class="social">
+                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="fa fa-vk"></i></a></li>
+                    <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+                </ul>
+                <a class="forgot" href="#">I forgot my username or password</a>
+            </form>
+        </div>
+    </div>
+
+
+</section>
 </body>
 </html>
+

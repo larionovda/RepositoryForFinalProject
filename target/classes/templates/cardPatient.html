@@ -1,0 +1,55 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Card</title>
+    <link rel="stylesheet" href="css/cardPatient.css">
+</head>
+<body>
+
+<header class="header">
+    <div class="loglink">
+        <a class="link" href="/patients">Hospital</a>
+    </div>
+    <div class="logout">
+        <a class="linklogout" href="/logout">Log out</a>
+    </div>
+</header>
+
+
+<section class="main">
+    <div class="container">
+        <div class="logo">
+            <img src="img/logo.png" alt="logo" class="logo_img">
+        </div>
+        <div th:with="fullName = ${patient.getName()} + ' ' + ${patient.getSurname()} + ' ' + ${patient.getPatronymic()}">
+            <h2 class="title" th:utext="${fullName}"></h2>
+        </div>
+        <div class="column">
+            <p th:text="'Diagnosis: ' + ${card.getDiagnosis()}"></p>
+            <p th:text="'Medicine: ' + ${card.getMedicine()}"></p>
+            <p th:text="'Procedures: ' + ${card.getProcedures()}"></p>
+            <p th:text="'Operation: ' + ${card.getOperation()}"></p>
+        </div>
+
+        <hr>
+        <div class="column">
+            <a class="linkEdit" th:href="@{'/update' + ${card.patientId}}">
+                <div class="edit">Edit card for Doctor</div>
+            </a>
+            <a class="linkEdit" th:href="@{'/updateNurse' + ${card.patientId}}">
+                <div class="edit">Edit card for Nurse</div>
+            </a>
+        </div>
+        <div class="column">
+            <a class="linkDelete" th:href="@{'/delete/' + ${patient.id}}">
+                <div class="delete">Write out the patient</div>
+            </a>
+        </div>
+    </div>
+</section>
+
+</body>
+</html>

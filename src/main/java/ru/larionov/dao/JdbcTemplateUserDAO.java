@@ -1,7 +1,5 @@
-
 package ru.larionov.dao;
 
-import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Repository;
 import ru.larionov.entity.User;
 import java.util.List;

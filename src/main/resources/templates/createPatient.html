@@ -1,18 +1,43 @@
 <!DOCTYPE HTML>
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
-    <title>List of patients</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Create a patient</title>
+    <link rel="stylesheet" href="css/createPatient.css">
 </head>
 
 <body>
 
-<<form th:action="@{/addPatient}" th:object="${patient}" method="post">
-    <div><label> Id : <input type="number" th:field="*{id}"/> </label></div>
-    <div><label> Name: <input type="text" th:field="*{name}"/> </label></div>
-    <div><label> Surname: <input type="text" th:field="*{surname}"/> </label></div>
-    <div><label> Patronymic: <input type="text" th:field="*{patronymic}"/> </label></div>
-    <div><input type="submit" value="Add"/></div>
-</form>
+
+<header class="header">
+    <div class="loglink">
+        <a class="link" href="/patients">Hospital</a>
+    </div>
+    <div class="logout">
+        <a class="linklogout" href="/logout">Log out</a>
+    </div>
+</header>
+
+<section>
+    <div>
+        <img src="/img/logo.png" alt="logo">
+    </div>
+
+    <div class="dws-wrapper">
+        <div class="dws-form">
+            <form class="tab-form active" th:action="@{/addPatient}" th:object="${patient}" method="post">
+                <label><input class="input" type="number" th:field="*{id}" placeholder="id of a patient"/></label>
+                <label><input class="input" type="text" th:field="*{name}" placeholder="name"/></label>
+                <label><input class="input" type="text" th:field="*{surname}" placeholder="surname"/></label>
+                <label><input class="input" type="text" th:field="*{patronymic}" placeholder="patronymic"/></label>
+                <input class="button" type="submit" value="Add"/>
+            </form>
+        </div>
+    </div>
+</section>
+
 
 </body>
 </html>

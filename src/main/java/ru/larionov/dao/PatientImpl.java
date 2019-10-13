@@ -29,5 +29,12 @@ public class PatientImpl implements JdbcTemplatePatientDAO {
     @Override
     public void deletePatientById(int id) {
         String SQL = "delete from patient where id = ? ";
+        jdbcTemplate.update(SQL, id);
+    }
+
+    @Override
+    public Patient getPatientById(int id) {
+        String SQL = "select * from patient where id = ?";
+        return jdbcTemplate.queryForObject(SQL, MAPPER_PATIENT, id);
     }
 }
