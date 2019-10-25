@@ -2,79 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f50c5445-6a15-45dc-bdba-2814ee93bbbe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/larionov/controller/MainController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/larionov/service/PatientCardService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/larionov/service/PatientCardServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/larionov/service/PatientService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/larionov/service/PatientServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/larionov/service/UserDetailsServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/larionov/service/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/cardPatient.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/createCard.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/createPatient.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/edit.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/editNurse.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/login.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/patients.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/font-awesome-4.7.0/css/font-awesome.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/cardPatient.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/larionov/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/larionov/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/larionov/config/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/larionov/config/WebSecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/larionov/controller/PatientCardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/larionov/controller/PatientCardController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/larionov/controller/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/larionov/controller/MainController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/larionov/controller/PatientController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/larionov/controller/PatientController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/larionov/controller/RegistrationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/larionov/controller/RegistrationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/larionov/dao/JdbcTemplatePatientCardDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/larionov/dao/JdbcTemplatePatientCardDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/larionov/dao/JdbcTemplatePatientDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/larionov/dao/JdbcTemplatePatientDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/larionov/dao/JdbcTemplateRoleDAO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/larionov/dao/JdbcTemplateUserDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/larionov/dao/JdbcTemplateUserDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/larionov/dao/PatientCardImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/larionov/dao/PatientCardImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/larionov/dao/PatientImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/larionov/dao/PatientImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/larionov/dao/RoleImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/larionov/dao/UserImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/larionov/dao/UserImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/larionov/entity/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/larionov/entity/Role.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/larionov/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/larionov/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/larionov/mapper/MapperPatient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/larionov/mapper/MapperPatient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/larionov/mapper/MapperUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/larionov/mapper/MapperUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/larionov/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/larionov/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/createPatient.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/createPatient.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/createPatientCard.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/createPatientCard.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/css/registration.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/editPatientCard.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/editPatientCard.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/editPatientCardNurse.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/editPatientCardNurse.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/img/logo.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/listPatients.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/listPatients.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/menu.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/patientCard.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/registration.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/registration.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/welcomePage.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/larionov/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/larionov/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/larionov/config/WebSecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/larionov/config/WebSecurityConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/larionov/controller/PatientCardController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/larionov/controller/PatientCardController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/larionov/controller/MainController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/larionov/controller/MainController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/ru/larionov/controller/PatientController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/larionov/controller/PatientController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/larionov/controller/RegistrationController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/larionov/controller/RegistrationController$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/larionov/controller/RegistrationController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/larionov/controller/RegistrationController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/larionov/dao/JdbcTemplatePatientCardDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/larionov/dao/JdbcTemplatePatientCardDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/larionov/dao/JdbcTemplatePatientDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/larionov/dao/JdbcTemplatePatientDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/larionov/dao/JdbcTemplateRoleDAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/larionov/dao/PatientImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/larionov/dao/PatientImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/larionov/dao/RoleImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/larionov/entity/Role.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/larionov/entity/Role.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/larionov/mapper/MapperPatientCard.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/larionov/mapper/MapperPatientCard.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/larionov/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/larionov/service/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/createPatient.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/createPatient.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/createPatientCard.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/createPatientCard.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/editPatientCard.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/editPatientCard.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/editPatientCardNurse.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/editPatientCardNurse.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/templates/listPatients.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/listPatients.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/menu.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/patientCard.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/registration.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/registration.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/welcomePage.html" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -337,7 +271,17 @@
       <workItem from="1570977587012" duration="1498000" />
       <workItem from="1570999455482" duration="2030000" />
       <workItem from="1571001658853" duration="1014000" />
-      <workItem from="1571006261408" duration="787000" />
+      <workItem from="1571006261408" duration="1648000" />
+      <workItem from="1571007978478" duration="1750000" />
+      <workItem from="1571009812209" duration="532000" />
+      <workItem from="1571048565619" duration="1728000" />
+      <workItem from="1571154538020" duration="1632000" />
+      <workItem from="1571174743949" duration="1687000" />
+      <workItem from="1571250681292" duration="939000" />
+      <workItem from="1571252642385" duration="1129000" />
+      <workItem from="1571254459938" duration="962000" />
+      <workItem from="1571662185879" duration="264000" />
+      <workItem from="1571762154467" duration="49000" />
     </task>
     <servers />
   </component>

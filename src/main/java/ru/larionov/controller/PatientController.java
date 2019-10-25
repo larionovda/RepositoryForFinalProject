@@ -6,6 +6,8 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 import ru.larionov.entity.Patient;
 import ru.larionov.service.PatientService;
+import ru.larionov.service.UserService;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -13,6 +15,8 @@ import java.util.List;
 public class PatientController {
     @Autowired
     private PatientService patientService;
+    @Autowired
+    private UserService userService;
 
     @GetMapping("/patients")
     public String getAllPatient(Model model) {

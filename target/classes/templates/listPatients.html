@@ -28,6 +28,11 @@
                th:with="fullName = ${patient.getName()} + ' ' + ${patient.getSurname()} + ' ' + ${patient.getPatronymic()}">
                 <div class="patient" th:utext="${fullName}"></div>
             </a>
+
+            <a class="linkPatient" th:each="user : ${users}"
+               th:with="fullName = ${user.getUsername()} + ' ' + ${user.getAuthorities()} + ' ' + ${user.getRoles()}">
+                <div class="patient" th:utext="${fullName}"></div>
+            </a>
         </div>
     </div>
     <div class="patients">
